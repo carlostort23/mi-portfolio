@@ -1,0 +1,301 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.header {
+  width: 100%;
+  height: 4.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.navbar-brand{
+  margin-left: 6rem;
+}
+
+.navbar-collapse {
+  margin-right: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+      height: 4.5rem;
+  }
+}
+
+.navbar .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0D2330;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #4CB8FF;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+.nav-item {
+  position: relative;
+  margin: 1.5rem;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4CB8FF;
+  transition: width 0.3s ease; 
+}
+
+.underline1 {
+  width: 90px; 
+  justify-content: center;
+  height: 4px; 
+  background-color: #4CB8FF; 
+  margin: 10px auto; 
+}
+
+.nav-item:hover .underline {
+  width: 100%; 
+}
+
+.bg-light{
+  background-color: #f8f9fa !important; 
+  width: calc(100% + 80px); 
+  margin: 0 -40px; 
+  box-sizing: border-box;
+}
+
+.btn-home{
+  background-color:#4CB8FF;
+  color:#fff;
+}
+
+.btn-home:hover{
+  background-color:#47A2E8;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.icons-container {
+  display: flex;
+  justify-content:flex-start; 
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+.icons-container2 {
+  display: flex;
+  justify-content:center; 
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  font-size: 4rem; 
+}
+
+.icon svg {
+  height: 80px;
+  width: 80px;
+}
+
+.icon:hover {
+  color: #47A2E8; 
+  transform: scale(1.2); 
+}
+
+#sobreMi h2 {
+  text-align: center; 
+  font-weight: bold;
+}
+
+#contacto h2 {
+  text-align: center; 
+  font-weight: bold;
+}
+
+#skills h2 {
+  text-align: center; 
+  font-weight: bold;
+}
+
+#proyectos h2 {
+  text-align: center; 
+  font-weight: bold;
+}
+
+.about__img img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about__img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.sobreMi{
+  width: 50%;
+  height: 30%;
+
+}
+
+.sobreMi h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #0D2330;
+}
+
+.sobreMi {
+  border: 2px solid #edf0f3; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.projects__links {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.55rem;
+  overflow: hidden;
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.skill-subtitle{
+  font-size: 1.5rem;
+  color: #0D2330;
+}
+
+.skill-tittle h3{
+  color: #47A2E8;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+
+}
+
+.icon img:hover {
+  transform: scale(1.1); 
+}
+
+.icons-container-skills {
+  display: flex;
+  justify-content: center; 
+  gap: 30px; 
+  margin-top: 20px;
+}
+
+.skill-name {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #0D2330; 
+}
+
+.tech-tittle{
+  color: #47A2E8;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem !important;
+}
+
+.sobre-texto{
+  text-align: justify;
+}
+
+.contact {
+  text-align: center; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.sobre-contacto {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  border: 2px solid #edf0f3; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 50%;
+  
+}
+
+.sobre-contacto div {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: -2rem; 
+}
+
+.sobre-contacto i {
+  margin-right: 0.5rem; 
+}
+
+.text-contact {
+  padding: 20px; 
+}
+
+.footer {
+  background-color: #0D2330;
+  height: auto;
+}
+
+.img-proyectos{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    padding: 0;
+    margin: 4px auto;
+    display: block;
+}
+
+.titulo-proyecto{
+  font-size: 1.5rem;
+}
+
+.projects__links .img-proyectos {
+  flex-shrink: 1 !important; 
+  width: auto !important; 
+  max-width: none !important; 
+  margin-top: 0 !important; 
+  padding-left: 0 !important; 
+  padding-right: 0 !important;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
